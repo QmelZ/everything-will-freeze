@@ -1,0 +1,7 @@
+{
+    name: "everything-will-freeze",
+    displayName: "Everything will freeze",
+    author: "QmelZ",
+    version: "",
+    minGameVersion: 120
+}
