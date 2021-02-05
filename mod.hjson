@@ -3,5 +3,6 @@
     displayName: "Everything will freeze",
     author: "QmelZ",
     version: "",
-    minGameVersion: 120
+    minGameVersion: 120,
+    hidden: true
 }
