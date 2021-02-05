@@ -1,1 +1,1 @@
-# everything-will-freeze
+everything will freeze
