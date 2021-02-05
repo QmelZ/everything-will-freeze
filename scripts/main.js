@@ -13,12 +13,12 @@ Events.on(ClientLoadEvent, () => {
 Events.on(WorldLoadEvent, () => {
     Timer.schedule(() => {
         Events.run(Trigger.update, () => {
-            Time.setDeltaProvider(
-                () => {
-                    return 0;
-                }
-            );
-            Vars.control.input.block = null;
+            if(Vars.net.active()){
+                Time.setDeltaProvider(() => 0.5);
+            }else{
+                Time.setDeltaProvider(() => 0);
+                Vars.control.input.block = null;
+            };
         });
     }, Mathf.random(60) + 30);
 });
