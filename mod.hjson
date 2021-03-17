@@ -2,7 +2,8 @@
     name: "everything-will-freeze",
     displayName: "Everything will freeze",
     author: "QmelZ",
-    version: "",
-    minGameVersion: 120,
+    description: "timeskip but with some extras",
+    version: 2,
+    minGameVersion: 125,
     hidden: true
 }
