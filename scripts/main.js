@@ -1,6 +1,6 @@
 importPackage(java.lang);
-let int = (i) => Integer.valueOf(i);
-let float = (f) => Float.valueOf(f);
+let int = (i) => new Integer(i);
+let float = (f) => new Float(f);
 
 let frozen = false;
 let vol = {
